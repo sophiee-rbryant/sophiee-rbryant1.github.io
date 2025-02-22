@@ -11,6 +11,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://embedded-systems-design.github.io/template_report/Temp%20Schematic/</loc>
+         <lastmod>2025-02-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://embedded-systems-design.github.io/template_report/Temp_Schematic/</loc>
          <lastmod>2025-02-22</lastmod>
          <changefreq>daily</changefreq>
