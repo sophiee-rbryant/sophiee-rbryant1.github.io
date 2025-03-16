@@ -2,29 +2,28 @@
 title: PIC Table
 ---
 
-| ESP Info                                      | Answer | Help                                                                                                      |
-| --------------------------------------------- | ------ | --------------------------------------------------------------------------------------------------------- |
-| Model                                         | ?      | Include the entire part number (leave off any letters at the end that specify the package type)           |
-| Product Page URL                              | ?      | Do not paste links directly into the table.  Use a [link](#)                                              |
-| Datasheet URL(s)                              | ?      | Do not paste links directly into the table.  Use a [link](#)                                              |
-| Application Notes URL(s)                      | ?      | Do not paste links directly into the table.  Use a [link](#)                                              |
-| Vendor link                                   | ?      | Digikey, Jameco, etc.  Do not paste links directly into the table.  Use a [link](#)                       |
-| Code Examples                                 | ?      | url(s) for libraries on github or other sites related to the microcontroller and your planned peripherals |
-| External Resources URL(s)                     | ?      | Search on Google and YouTube for other resources for each specific microcontroller.                       |
-| Unit cost                                     | ?      | Find in the Microchip online store, or Digikey                                                            |
-| Absolute Maximum Current for entire IC        | ?      | Find in the microcontroller datasheet                                                                     |
-| Supply Voltage Range                          | ?      | Min / Nominal / Max / Absolute Max, as found in datasheet                                                 |
-| Absolute Maximum current <br> (for entire IC) | ?      | as found in datasheet                                                                                     |
-| Maximum GPIO current <br> (per pin)           | ?      | as found in datasheet                                                                                     |
-| Supports External Interrupts?                 | ?      | as found in datasheet                                                                                     |
-| Required Programming Hardware, Cost, URL      | ?      | found on the microcontroller's product page                                                               |
-| Works with MPLabX?                            | ?      | Required.  See [Microchip Development Tools](https://www.microchip.com/development-tools)                 |
-| Works with Microchip Code Configurator?       | ?      | Can be validated in MPLabX.  Screenshot required.                                                         |
+| ESP Info                                      | Answer | 
+| --------------------------------------------- | ------ | 
+| Model                                         | PIC18F27Q10-I/SO      | 
+| Product Page URL                              | [Link to product](https://www.digikey.com/en/products/detail/microchip-technology/PIC18F27Q10-I-SO/10064343?curr=usd&utm_campaign=buynow&utm_medium=aggregator&utm_source=octopart)      | 
+| Datasheet URL(s)                              | [Link to datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/PIC18F27-47Q10-Data-Sheet-40002043E.pdf)      | 
+| Application Notes URL(s)                      | [Link to Application Notes](https://www.microchip.com/en-us/application-notes)      | 
+| Vendor link                                   | [Link to Vendor](https://www.digikey.com/)      | 
+| Code Examples                                 | [Link to GitHUb Microchip MPLAB Harmony](https://github.com/Microchip-MPLAB-Harmony)      | 
+| Unit cost                                     | $1.31      | 
+| Absolute Maximum Current for entire IC        | 250mA      | 
+| Supply Voltage Range                          | 1.8V to 5.5V   |
+| Absolute Maximum current <br> (for entire IC) | 250mA      | 
+| Maximum GPIO current <br> (per pin)           | 25mA      | 
+| Supports External Interrupts?                 | Yes      | 
+| Required Programming Hardware, Cost, URL      | No      | 
+| Works with MPLabX?                            | Yes      | 
+| Works with Microchip Code Configurator?       | Yes      |
 
 
 | Module | # Available | Needed | Associated Pins (or * for any) |
 | ---------- | ----------- | ------ | ------------------------------ |
-| GPIO       | ?           | ?      | ?                              |
+| GPIO       | 25           | 4      | *                              |
 | ADC        | ?           | ?      | ?                              |
 | UART       | ?           | ?      | ?                              |
 | SPI        | ?           | ?      | ?                              |
