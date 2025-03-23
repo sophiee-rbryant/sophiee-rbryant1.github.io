@@ -2,47 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://embedded-systems-design.github.io/template_report/</loc>
-         <lastmod>2025-03-17</lastmod>
+         <lastmod>2025-03-23</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://embedded-systems-design.github.io/template_report/API/</loc>
+         <lastmod>2025-03-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://embedded-systems-design.github.io/template_report/Bill_of_Materials/</loc>
-         <lastmod>2025-03-17</lastmod>
+         <lastmod>2025-03-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://embedded-systems-design.github.io/template_report/Block_Diagram/</loc>
-         <lastmod>2025-03-17</lastmod>
+         <lastmod>2025-03-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://embedded-systems-design.github.io/template_report/Component_Section/</loc>
-         <lastmod>2025-03-17</lastmod>
+         <lastmod>2025-03-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://embedded-systems-design.github.io/template_report/Temp_Schematic/</loc>
-         <lastmod>2025-03-17</lastmod>
+         <lastmod>2025-03-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://embedded-systems-design.github.io/template_report/pic-table/</loc>
-         <lastmod>2025-03-17</lastmod>
+         <lastmod>2025-03-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://embedded-systems-design.github.io/template_report/static/node_modules/mathjax/</loc>
-         <lastmod>2025-03-17</lastmod>
+         <lastmod>2025-03-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://embedded-systems-design.github.io/template_report/subfolder/</loc>
-         <lastmod>2025-03-17</lastmod>
+         <lastmod>2025-03-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://embedded-systems-design.github.io/template_report/subfolder/another-subfile/</loc>
-         <lastmod>2025-03-17</lastmod>
+         <lastmod>2025-03-23</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
