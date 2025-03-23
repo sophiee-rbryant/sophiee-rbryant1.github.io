@@ -92,6 +92,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#message-type-2-user-safe" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -415,6 +420,17 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    API
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -424,6 +440,37 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#message-type-2-user-safe" class="md-nav__link">
+    Message Type 2: User Safe
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#message-type-7-temperature" class="md-nav__link">
+    Message Type 7: Temperature
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -585,6 +632,28 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#message-type-2-user-safe" class="md-nav__link">
+    Message Type 2: User Safe
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#message-type-7-temperature" class="md-nav__link">
+    Message Type 7: Temperature
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -608,7 +677,86 @@
 
   <h1>API</h1>
 
-
+<table>
+<thead>
+<tr>
+<th>Message Type Byte 1 - 2 (uint16_t)</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2</td>
+<td>User Safe</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Temperature</td>
+</tr>
+</tbody>
+</table>
+<h2 id="message-type-2-user-safe">Message Type 2: User Safe</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Byte 3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Var Name</td>
+<td>user</td>
+</tr>
+<tr>
+<td>Var Type</td>
+<td>uint16_t</td>
+</tr>
+<tr>
+<td>Min Val</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Max Val</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2 id="message-type-7-temperature">Message Type 7: Temperature</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Byte 4</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Var Name</td>
+<td>temp</td>
+</tr>
+<tr>
+<td>Var Type</td>
+<td>uint16_t</td>
+</tr>
+<tr>
+<td>Min Val</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Max Val</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Example</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
 
 
 
