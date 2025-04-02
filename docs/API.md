@@ -1,28 +1,12 @@
 ---
-title: API
+title: Message Structure
 ---
 
-| Message Type Byte 1 - 2 (uint16_t) | Description |
-| ---- | ---- |
-| 2 | User Safe |
-| 7 | Temperature |
-
-
-## Message Type 2: User Safe
-|  | Byte 3 |
-| ---- | ---- |
-| Var Name | user |
-| Var Type | uint16_t |
-| Min Val | 0 |
-| Max Val | 1 |
-| Example | 1 |
-
-
-## Message Type 7: Temperature
-|  | Byte 4 |
-| ---- | ---- |
-| Var Name | temp |
-| Var Type | uint16_t |
-| Min Val | 0 |
-| Max Val | 1 |
-| Example | 1 |
+## Message Type - User Safe
+| | Byte 1 | Byte 2 |
+| --- | ---- | ---- |
+| Variable Name | Read Temperature | User Safe |
+| Variable Type | 7 | Temperature |
+| Min | 0 | 1 |
+| Max | 1 | 7 |
+| Use | To read temperature from product | Tells the system to shut down the product |
