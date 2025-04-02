@@ -29,7 +29,7 @@
 
     
       
-        <title>API - Sophie Bryant</title>
+        <title>Message Structure - Sophie Bryant</title>
       
     
     
@@ -93,7 +93,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#message-type-2-user-safe" class="md-skip">
+        <a href="#message-type-user-safe" class="md-skip">
           Skip to content
         </a>
       
@@ -128,7 +128,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              API
+              Message Structure
             
           </span>
         </div>
@@ -226,7 +226,7 @@
   
     
   
-  API
+  Message Structure
 
       </a>
     </li>
@@ -424,7 +424,7 @@
           
   
   <span class="md-ellipsis">
-    API
+    Message Structure
   </span>
   
 
@@ -435,7 +435,7 @@
         
   
   <span class="md-ellipsis">
-    API
+    Message Structure
   </span>
   
 
@@ -455,15 +455,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#message-type-2-user-safe" class="md-nav__link">
-    Message Type 2: User Safe
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#message-type-7-temperature" class="md-nav__link">
-    Message Type 7: Temperature
+  <a href="#message-type-user-safe" class="md-nav__link">
+    Message Type - User Safe
   </a>
   
 </li>
@@ -639,15 +632,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#message-type-2-user-safe" class="md-nav__link">
-    Message Type 2: User Safe
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#message-type-7-temperature" class="md-nav__link">
-    Message Type 7: Temperature
+  <a href="#message-type-user-safe" class="md-nav__link">
+    Message Type - User Safe
   </a>
   
 </li>
@@ -675,85 +661,42 @@
   
 
 
-  <h1>API</h1>
+  <h1>Message Structure</h1>
 
+<h2 id="message-type-user-safe">Message Type - User Safe</h2>
 <table>
 <thead>
 <tr>
-<th>Message Type Byte 1 - 2 (uint16_t)</th>
-<th>Description</th>
+<th></th>
+<th>Byte 1</th>
+<th>Byte 2</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>2</td>
+<td>Variable Name</td>
+<td>Read Temperature</td>
 <td>User Safe</td>
 </tr>
 <tr>
+<td>Variable Type</td>
 <td>7</td>
 <td>Temperature</td>
 </tr>
-</tbody>
-</table>
-<h2 id="message-type-2-user-safe">Message Type 2: User Safe</h2>
-<table>
-<thead>
 <tr>
-<th></th>
-<th>Byte 3</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Var Name</td>
-<td>user</td>
-</tr>
-<tr>
-<td>Var Type</td>
-<td>uint16_t</td>
-</tr>
-<tr>
-<td>Min Val</td>
+<td>Min</td>
 <td>0</td>
-</tr>
-<tr>
-<td>Max Val</td>
 <td>1</td>
 </tr>
 <tr>
-<td>Example</td>
+<td>Max</td>
 <td>1</td>
-</tr>
-</tbody>
-</table>
-<h2 id="message-type-7-temperature">Message Type 7: Temperature</h2>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>Byte 4</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Var Name</td>
-<td>temp</td>
+<td>7</td>
 </tr>
 <tr>
-<td>Var Type</td>
-<td>uint16_t</td>
-</tr>
-<tr>
-<td>Min Val</td>
-<td>0</td>
-</tr>
-<tr>
-<td>Max Val</td>
-<td>1</td>
-</tr>
-<tr>
-<td>Example</td>
-<td>1</td>
+<td>Use</td>
+<td>To read temperature from product</td>
+<td>Tells the system to shut down the product</td>
 </tr>
 </tbody>
 </table>
