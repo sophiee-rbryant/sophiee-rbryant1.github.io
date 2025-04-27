@@ -17,3 +17,7 @@
 
 ![Screenshot 2025-03-02 152710](https://github.com/user-attachments/assets/47e939e0-18ac-4c98-b401-525afe556072)
 [Power.Budget-Sophie.pdf](https://github.com/user-attachments/files/19045138/Power.Budget-Sophie.pdf)
+
+
+# My Role
+My role on this team extends beyond just creating an Overtemperature Protection system for our robotic arm. I'm responsible for designing and implementing a temperature monitoring system that tracks the arm’s components. If overheating is detected, the system will automatically shutdown to prevent potential damage and ensure the long-term reliability of the device. In addition to that, I also play a key role in leading team meetings, ensuring effective communication among all members, and making sure that everyone remains aligned on project goals and deadlines. By maintaining clear communication and organization, I help ensure that our team operates efficiently and collaboratively throughout the project
