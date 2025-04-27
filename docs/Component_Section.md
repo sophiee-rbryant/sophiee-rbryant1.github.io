@@ -9,14 +9,12 @@
 
 
 
+![Screenshot 2025-04-27 145607](https://github.com/user-attachments/assets/be0a1706-48d3-4a63-ad05-246c6b94d18c)
 
 
 
 
 
-
-![Screenshot 2025-03-02 152710](https://github.com/user-attachments/assets/47e939e0-18ac-4c98-b401-525afe556072)
-[Power.Budget-Sophie.pdf](https://github.com/user-attachments/files/19045138/Power.Budget-Sophie.pdf)
 
 
 # My Role
