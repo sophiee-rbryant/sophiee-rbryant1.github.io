@@ -2,6 +2,12 @@
 title: PIC Table
 ---
 
+# Image of PIC
+
+![image](https://github.com/user-attachments/assets/e5b3e080-8825-4229-a3fa-3c09a98a8686)
+
+
+
 | ESP Info                                      | Answer | 
 | --------------------------------------------- | ------ | 
 | Model                                         | PIC18F47Q10-E/PT      | 
