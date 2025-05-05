@@ -1,12 +1,25 @@
 ---
-title: Message Structure
+title: API
 ---
 
-## Message Type - User Safe
-| | Byte 1 | Byte 2 |
-| --- | ---- | ---- |
-| Variable Name | Read Temperature | User Safe |
-| Variable Type | Char | Char |
-| Min | 0 | 1 |
-| Max | 1 | 7 |
-| Use | To read temperature from product | Tells the system to shut down the product |
+ ## Message Tables
+**Safety Message Sent to Motor**
+| Field | Value |
+| --- | ---- |
+| Byte 1 | msg_type |
+| Variable Type | uint8_t |
+| Min Value | 0 |
+| Max Value | 1 |
+| Use | To make sure the temperature on motor does not overheat |
+
+**Message to LED**
+| Field | Value |
+| --- | ---- |
+| Byte 1 | LED_set|
+| Variable Type | uint8_t |
+| Min Value | 0 |
+| Max Value | 1 |
+| Use | To show it is in use |
+
+## Team UML
+![Screenshot 2025-05-05 155907](https://github.com/user-attachments/assets/471b7be5-e13f-4b95-80c2-1caec39096c8)
