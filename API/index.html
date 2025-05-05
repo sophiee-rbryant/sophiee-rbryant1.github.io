@@ -29,7 +29,7 @@
 
     
       
-        <title>Message Structure - Sophie Bryant</title>
+        <title>API - Sophie Bryant</title>
       
     
     
@@ -93,7 +93,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#message-type-user-safe" class="md-skip">
+        <a href="#team-uml" class="md-skip">
           Skip to content
         </a>
       
@@ -128,7 +128,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Message Structure
+              API
             
           </span>
         </div>
@@ -226,7 +226,7 @@
   
     
   
-  Message Structure
+  API
 
       </a>
     </li>
@@ -424,7 +424,7 @@
           
   
   <span class="md-ellipsis">
-    Message Structure
+    API
   </span>
   
 
@@ -435,7 +435,7 @@
         
   
   <span class="md-ellipsis">
-    Message Structure
+    API
   </span>
   
 
@@ -455,8 +455,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#message-type-user-safe" class="md-nav__link">
-    Message Type - User Safe
+  <a href="#team-uml" class="md-nav__link">
+    Team UML
   </a>
   
 </li>
@@ -632,8 +632,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#message-type-user-safe" class="md-nav__link">
-    Message Type - User Safe
+  <a href="#team-uml" class="md-nav__link">
+    Team UML
   </a>
   
 </li>
@@ -661,45 +661,27 @@
   
 
 
-  <h1>Message Structure</h1>
+  <h1>API</h1>
 
-<h2 id="message-type-user-safe">Message Type - User Safe</h2>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>Byte 1</th>
-<th>Byte 2</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Variable Name</td>
-<td>Read Temperature</td>
-<td>User Safe</td>
-</tr>
-<tr>
-<td>Variable Type</td>
-<td>Char</td>
-<td>Char</td>
-</tr>
-<tr>
-<td>Min</td>
-<td>0</td>
-<td>1</td>
-</tr>
-<tr>
-<td>Max</td>
-<td>1</td>
-<td>7</td>
-</tr>
-<tr>
-<td>Use</td>
-<td>To read temperature from product</td>
-<td>Tells the system to shut down the product</td>
-</tr>
-</tbody>
-</table>
+<p>## Message Tables
+<strong>Safety Message Sent to Motor</strong>
+| Field | Value |
+| --- | ---- |
+| Byte 1 | msg_type |
+| Variable Type | uint8_t |
+| Min Value | 0 |
+| Max Value | 1 |
+| Use | To make sure the temperature on motor does not overheat |</p>
+<p><strong>Message to LED</strong>
+| Field | Value |
+| --- | ---- |
+| Byte 1 | LED_set|
+| Variable Type | uint8_t |
+| Min Value | 0 |
+| Max Value | 1 |
+| Use | To show it is in use |</p>
+<h2 id="team-uml">Team UML</h2>
+<p><a class="glightbox" href="https://github.com/user-attachments/assets/471b7be5-e13f-4b95-80c2-1caec39096c8" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Screenshot 2025-05-05 155907" src="https://github.com/user-attachments/assets/471b7be5-e13f-4b95-80c2-1caec39096c8" /></a></p>
 
 
 
