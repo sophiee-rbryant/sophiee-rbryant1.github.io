@@ -8,6 +8,8 @@ tags:
 # Hello and welcome
 Name: Sophie Bryant
 
+E-mail: rsbryan2@asu.edu
+
 Class: EGR 314 12:00PM - 1:15PM Monday/Wednesday
 
 Professor: Dr. Kevin Nichols
