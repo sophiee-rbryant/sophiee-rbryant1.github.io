@@ -699,23 +699,69 @@
 
   <h1>API</h1>
 
-<p>## Message Tables
-<strong>Safety Message Sent to Motor</strong>
-| Field         | Value                                                   |
-|---------------|---------------------------------------------------------|
-| Byte 1        | msg_type                                                |
-| Variable Type | uint8_t                                                 |
-| Min Value     | 0                                                       |
-| Max Value     | 1                                                       |
-| Use           | To make sure the temperature on motor does not overheat |</p>
-<p><strong>Message to LED</strong>
-| Field         | Value                |
-| ------------- | -------------------- |
-| Byte 1        | LED_set              |
-| Variable Type | uint8_t              |
-| Min Value     | 0                    |
-| Max Value     | 1                    |
-| Use           | To show it is in use |</p>
+<p>## Message Tables</p>
+<p><strong>Safety Message Sent to Motor</strong></p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Byte 1</td>
+<td>msg_type</td>
+</tr>
+<tr>
+<td>Variable Type</td>
+<td>uint8_t</td>
+</tr>
+<tr>
+<td>Min Value</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Max Value</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Use</td>
+<td>To make sure the temperature on motor does not overheat</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Message to LED</strong></p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Byte 1</td>
+<td>LED_set</td>
+</tr>
+<tr>
+<td>Variable Type</td>
+<td>uint8_t</td>
+</tr>
+<tr>
+<td>Min Value</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Max Value</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Use</td>
+<td>To show it is in use</td>
+</tr>
+</tbody>
+</table>
 <h2 id="team-uml">Team UML</h2>
 <p><a class="glightbox" href="https://github.com/user-attachments/assets/471b7be5-e13f-4b95-80c2-1caec39096c8" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Screenshot 2025-05-05 155907" src="https://github.com/user-attachments/assets/471b7be5-e13f-4b95-80c2-1caec39096c8" /></a></p>
 
