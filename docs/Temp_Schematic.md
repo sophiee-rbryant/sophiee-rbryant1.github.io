@@ -10,8 +10,22 @@ The schematic of the temperature sensor includes a voltage regulator of 3.3V tha
 **Back**
 ![download (3)](https://github.com/user-attachments/assets/be8da0cb-387d-44aa-8e76-6fa1f9bad142)
 
+
+
+
+
 [Bryant_Sophie_Temp_Sensor_S25.pdf](https://github.com/user-attachments/files/20051428/Bryant_Sophie_Temp_Sensor_S25.pdf)
+
+
+
+
 [Bryant_Sophie_Temp_S25.zip](https://github.com/user-attachments/files/20051434/Bryant_Sophie_Temp_S25.zip)
+
+
+
+
+
+
 [Gerber_Temp_S25_P2.zip](https://github.com/user-attachments/files/20051437/Gerber_Temp_S25_P2.zip)
 
 ## Team Final PCB Photos
