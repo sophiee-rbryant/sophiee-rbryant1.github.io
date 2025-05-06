@@ -17,5 +17,5 @@
 
 
 
-# My Role
-My role on this team extends beyond just creating an Overtemperature Protection system for our robotic arm. I'm responsible for designing and implementing a temperature monitoring system that tracks the arm’s components. If overheating is detected, the system will automatically shutdown to prevent potential damage and ensure the long-term reliability of the device. In addition to that, I also play a key role in leading team meetings, ensuring effective communication among all members, and making sure that everyone remains aligned on project goals and deadlines. By maintaining clear communication and organization, I help ensure that our team operates efficiently and collaboratively throughout the project
+# Power Budget Conclusion
+The power budget confirms that the system is efficient and can operate within its limits. The 3.3V regulator and external 9V adapter can safely support all components, including the PIC microcontroller, LM92 temperature sensor, LEDs, all with 49% of the regulator’s capacity still available for future expansion.
