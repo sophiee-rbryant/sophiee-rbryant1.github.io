@@ -90,7 +90,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#power-budget-conclusion" class="md-skip">
+        <a href="#bill-of-materials" class="md-skip">
           Skip to content
         </a>
       
@@ -534,8 +534,17 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
-        
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Component Section
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -546,6 +555,32 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#bill-of-materials" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bill of Materials
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -734,8 +769,23 @@
   
   
   
-    
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#bill-of-materials" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bill of Materials
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -758,12 +808,14 @@
   
 
 
+  <h1>Component Section</h1>
+
 <table>
 <thead>
 <tr>
-<th>Solution</th>
-<th>Pros</th>
-<th>Cons</th>
+<th><span style="color:#E91E63;">Solution</span></th>
+<th><span style="color:#E91E63;">Pros</span></th>
+<th><span style="color:#E91E63;">Cons</span></th>
 </tr>
 </thead>
 <tbody>
@@ -785,9 +837,13 @@
 </tbody>
 </table>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/c3b2775b-207e-4f34-a677-c62403ee0de6" data-desc-position="bottom"><img alt="Screenshot 2025-03-02 160459" src="https://github.com/user-attachments/assets/c3b2775b-207e-4f34-a677-c62403ee0de6"></a></p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/be0a1706-48d3-4a63-ad05-246c6b94d18c" data-desc-position="bottom"><img alt="Screenshot 2025-04-27 145607" src="https://github.com/user-attachments/assets/be0a1706-48d3-4a63-ad05-246c6b94d18c"></a></p>
-<h1 id="power-budget-conclusion">Power Budget Conclusion</h1>
-<p>The power budget confirms that the system is efficient and can operate within its limits. The 3.3V regulator and external 9V adapter can safely support all components, including the PIC microcontroller, LM92 temperature sensor, LEDs, all with 49% of the regulator’s capacity still available for future expansion.</p>
+<hr style="border: 1px solid #E91E63;">
+
+<h2 id="bill-of-materials"><span style="color:#E91E63; font-weight:700;">Bill of Materials</span></h2>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="https://github.com/user-attachments/assets/20bcba65-6862-4ace-ba67-2847cfd92582" data-desc-position="bottom"><img width="2363" height="1220" alt="image" src="https://github.com/user-attachments/assets/20bcba65-6862-4ace-ba67-2847cfd92582"></a></p>
+<p><a href="https://github.com/user-attachments/files/22654392/Team.313.Bill.of.Materials.xlsx.-.Sheet1.pdf">Team 313 Bill of Materials.xlsx - Sheet1.pdf</a></p>
+<p>We used the power budget to estimate our system’s total current draw by listing every active component, pulling its maximum current from the datasheet, and multiplying it by the quantity shown in the BOM. By assuming worst-case conditions, ESP32 transmitting, all sensors active, and all LEDs on. We created a conservative estimate rather than relying on typical values. After summing all currents and adding design margin, we compared the total to the LM2575D2T-3.3R4G regulator’s 1 A limit.</p>
+<p>The analysis showed that our system remains well below the regulator’s maximum output, meaning the 3.3 V rail is stable, safe, and capable of supporting all components without risk of brownout. This confirms that our chosen regulator and input supply provide enough headroom for reliable operation and small future expansions.</p>
 
 
 
