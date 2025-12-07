@@ -2,13 +2,14 @@
 title: PIC Table
 ---
 
-# Image of PIC
+### <span style="color:#E91E63; font-weight:700;">Image of PIC</span>
 
 ![image](https://github.com/user-attachments/assets/e5b3e080-8825-4229-a3fa-3c09a98a8686)
 
 
+<hr style="border: 1px solid #E91E63;">
 
-| ESP Info                                      | Answer | 
+| <span style="color:#E91E63;">ESP Info</span> | <span style="color:#E91E63;">Answer</span> | 
 | --------------------------------------------- | ------ | 
 | Model                                         | PIC18F47Q10-E/PT      | 
 | Product Page URL                              | [Link to product](https://www.digikey.com/en/products/detail/microchip-technology/PIC18F47Q10-E-PT/12807473?s=N4IgTCBcDaIIwFYAMBaACgSQMJwBwDEAWAdgEU5UBRAejQBUUA5AEQAIQBdAXyA)      | 
@@ -26,8 +27,10 @@ title: PIC Table
 | Works with MPLabX?                            | Yes      | 
 | Works with Microchip Code Configurator?       | Yes      |
 
+<hr style="border: 1px solid #E91E63;">
 
-| Module | # Available | Needed | Associated Pins (or * for any) |
+
+| <span style="color:#E91E63;">Module</span> | <span style="color:#E91E63;"># Available</span> | <span style="color:#E91E63;">Needed</span> | <span style="color:#E91E63;">Associated Pins (or * for any)</span> |
 | ---------- | ----------- | ------ | ------------------------------ |
 | GPIO       | 36           | 4      | *                              |
 | ADC        | 11           | 0      | *                              |
