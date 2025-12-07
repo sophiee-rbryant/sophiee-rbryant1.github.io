@@ -1,17 +1,9 @@
-Block Diagram of the Subsystem: Temperature Sensor
+<img width="1354" height="1248" alt="image" src="https://github.com/user-attachments/assets/ca81645f-36e9-49a5-8389-7dc787cb8b7e" />
 
-The temperature sensor chosen in our project will be LM92CIMX/NOPB from Texas Instruments. It will ensure thermal management and safe operation by shutting down the system if the temerature exceeds safe thresholds. This will help protect the project from thermal runaway or any fire hazards, also detect any component failure that can be caused by abnormal temperature spikes.
+[PDF of Block Diagram](https://github.com/user-attachments/files/23953043/Team313_BlockDiagramV2.pdf)
 
-![Screenshot 2025-05-05 165558](https://github.com/user-attachments/assets/f44b6ce0-fd7e-4632-9979-0952f819492d)
+<hr style="border: 1px solid #E91E63;">
 
+## <span style="color:#E91E63; font-weight:700;">Decision Making Process of the Block Diagram</span>
 
-**Feedback**
-*
-Adding more LEDs to help with reading and to ensure everything works properly
-*
-Adding a Microchip snap programmer with supoorting the PIC18F47Q10. Using MPLAB supports it as well and helps with debugging
-*
-9V 3A wall power supply and a barrel jack helps the Temp sensor by indirectly providing it with the regulated voltage it needs to operate
-
-**Decision Making Process**
-I made significant adjustments to my subsystem design after conducting peer reviews and reviewing the standard project requirements. It helped me identify key areas for improvement, particularly in power management, communication interfaces, and debugging capabilities. To enhance the system’s reliability and compatibility, I included a 9V wall adapter as the main power source. This input voltage is regulated down to 3.3V using a switching voltage regulator to power the temperature sensor and microcontroller. Connecting the LM92 temperature sensor to the PIC18F47Q10 microcontroller using the I²C protocol, helping to provide accurate and consistent data transmission. Additionally, I added more of the debugging LEDs on the board. Not only did it help provide real-time visual feedback during testing and troubleshooting but it also gave me the flexibility to incorporate additional indicators for future system enhancements. These modifications collectively improved the overall functionality, maintainability, and adaptability of my subsystem.
+We structured the block diagram by first mapping our core product requirements into subsystems: power, sensing, processing, communication, and indication. From there we placed the ESP32-S3-WROOM-1-N4 at the center because it is responsible for all decisions, data processing, and wireless communication. The 9 V battery and LM2575D2T-3.3R4G regulator were placed on the left as the single power path so it is clear that every other block ultimately depends on a regulated 3.3 V rail. The BME280 pressure/temperature/humidity sensor and LM92 temperature sensor are shown on I²C links into the ESP32 to emphasize that all environmental data flows through a common digital bus. On the right, the 74HC595PW shift register and LED block are connected by SPI / digital-parallel lines to show how the microcontroller expands its outputs to drive multiple visual indicators. Finally, the ESP-NOW cloud in the center-top shows that the same ESP32 both transmits and receives data, tying the remote node into a wider network of wildfire-monitoring stations. This structure directly reflects the product requirements: stable off-grid power, multi-sensor environmental monitoring, wireless early-warning communication, and clear visual feedback for local users.
